@@ -2,9 +2,7 @@ package com.capg.bookingmicroservice.service;
 
 import java.util.List;
 
-import javax.validation.Valid;
-
-import org.springframework.security.core.userdetails.UserDetails;
+import javax.validation.Valid; 
 
 import com.capg.bookingmicroservice.dto.BookingDetailsDTO;
 

@@ -25,11 +25,7 @@ public class BookingDetails {
 	
 	@Id
 	private int bookingId;
-	
-	private String username;
-    
-    private String userPassword;
-	
+
     private String firstName;
     
     private String lastName;
@@ -55,9 +51,7 @@ public class BookingDetails {
     public BookingDetails(BookingDetailsDTO bookingDetailsDTO) {
     	
     	 this.bookingId = bookingDetailsDTO.getBookingId();
-    	 this.username = bookingDetailsDTO.getUsername();
-    	 this.userPassword = bookingDetailsDTO.getUserPassword();
-         this.firstName = bookingDetailsDTO.getFirstName();
+    	 this.firstName = bookingDetailsDTO.getFirstName();
          this.lastName = bookingDetailsDTO.getLastName();
          this.gender = bookingDetailsDTO.getGender();
          this.email = bookingDetailsDTO.getEmail();
